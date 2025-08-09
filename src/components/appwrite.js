@@ -17,7 +17,7 @@ const CONTACT_COLLECTION_ID= import.meta.env.PUBLIC_APPWRITE_COLLECTION_ID;
 
 
 
-export async function listMessages(){
+export async function listMessages (){
 
 
     try {

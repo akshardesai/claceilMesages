@@ -51,7 +51,7 @@ return local
               className="message-entry w-full bg-gray-900/80 backdrop-blur-lg border border-gray-800 rounded-xl p-5 shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               <div className="mb-3">
-                <p className="text-sm text-gray-400">📧 {message.$createdAt.split("T")[0]+" - "+formatTime(message.$createdAt)}</p>
+                <p className="text-sm text-gray-400">⌚ {message.$createdAt.split("T")[0]+" - "+formatTime(message.$createdAt)}</p>
               </div>
               <div className="mb-3">
                 <p className="text-sm text-gray-400">📧 {message.email}</p>
